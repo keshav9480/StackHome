@@ -9,15 +9,79 @@
 </head>
 
 <body>
-	<h1>Keshav Nimmagadda</h1>
-	<p><em>Software Engineer, Proffessional Web Developer</em></p>
-	<p>Currently working as a network software engineer at <strong>CISCO</strong>.</p>
+	<table cellspacing="20">
+		<td>
+			<img class = 'profile-pic' 
+			alt="behind the code",
+			src = "images/profile.png", decoding="async", loading = "lazy">
+		</td>
+		<td>
+			<h1>Keshav Nimmagadda</h1>
+			<p><em>Software Engineer, Proffessional Web Developer</em></p>
+			<a href="contact.html"><strong>My Contact</strong> </a>
+			<p>Currently working as a network software engineer at <strong>CISCO</strong>.</p>
+		</td>
+	</table>
 	<hr>
 	<h3>Education</h3>
-	<ul>
-		<li><strong>Primary Education</strong>: DCMC High School N.R.Pura.</li>
-		<li><strong>Secondary Education</strong>: Expert PU Science College, Banglore.</li>
-		<li><strong>Degree</strong>: RV College of Engineering.</li>
-	</ul>
+	<table>
+		<caption><strong>Education Qualification </strong></caption>
+		<thead>
+			<th>Year</th>
+			<th>Education</th>
+			<th>Score</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2013</td>
+				<td>DCMC High School, N.R.Pura</td>
+				<td>88.8%</td>
+			</tr>
+			<tr>
+				<td>2015</td>
+				<td>Expert PU Science College, Manglore</td>
+				<td>92.3%</td>
+			</tr>
+			<tr>
+				<td>2019</td>
+				<td>RV College of Engineering, Banglore</td>
+				<td>7.98</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<h3>Skills</h3>
+	<table cellspacing="20">
+		<tr>
+			<td>HTML5</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+			<td>CSS</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+		</tr>
+		<tr>
+			<td>JavaScrip</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+			<td>Python</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+		</tr>	
+		<tr>
+			<td>MySql</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+			<td>DS</td>
+			<td>&#10032 &#10032 &#10032 &#10032 &#10032</td>
+		</tr>			
+	</table>
+	<form action="mailto:keshav9480@gmail.com" method="POST" enctype="text/plain">
+		<label for="username"><strong>Username:</strong></label>
+		<input type="text" name="username" value=""><br>
+		<label for="username">Email</label>
+		<input type="email" name="Email" value=""><br>
+		<label for="password">Password</label>
+		<input type="text" name="password" value=""><br>
+		<label for="username">Re-Enter Password</label>
+		<input type="text" name="password" value=""><br>
+		<textarea name="description" rows="10" cols="30"></textarea><br>
+		<input type="submit" name="submit">
+	</form>
 </body>
 </html>

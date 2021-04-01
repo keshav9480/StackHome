@@ -1,0 +1,42 @@
+/* class selector*/
+.profile-pic{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Id slector
+    Id slectors always overwrite tag slectors
+    Id is single instance, it can be only used once
+*/
+#email{
+    color: rgb(139, 0, 0);
+}
+
+/* Tag selector*/
+hr {
+	border: 5px;
+    border-style: none;
+	border-top-style: dotted;
+    overflow: visible;
+    text-align: center;
+	width: 10%;
+}
+hr:hover{
+    background-color: rgb(10, 11, 12);
+}
+
+body {
+	background-color: rgb(247, 242, 242);
+}
+
+h1{
+    color: rgb(14, 8, 1);
+    text-indent: 0cm;
+}
+
+h3 {
+    color: rgb(11, 14, 14);
+}
+
+
